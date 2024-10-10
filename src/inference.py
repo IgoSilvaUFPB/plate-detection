@@ -5,10 +5,8 @@ import cv2
 import matplotlib.pyplot as plt
 
 from ultralytics import YOLO
-from ultralytics.engine.results import Results
 
-
-BEST_MODEL_PATH = "runs/detect/train/weights/best.pt"
+BEST_MODEL_PATH = "runs/detect/train2/weights/best.pt"
 
 if not os.path.exists(BEST_MODEL_PATH):
     raise FileNotFoundError("Model not found. Please check the model path.")
@@ -22,7 +20,7 @@ def inference(img_path: str) -> np.ndarray:
 
     return img_with_preds
 
-def plot_img_result(img_with_preds: Results) -> None:
+def plot_img_result(img_with_preds) -> None:
     plt.imshow(cv2.cvtColor(img_with_preds.plot(), cv2.COLOR_BGR2RGB))
     plt.axis('off')
     plt.show()
