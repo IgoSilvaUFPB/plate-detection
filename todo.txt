@@ -1,3 +1,3 @@
-- fazer inferencia para video tbm
 - fazer ocr
+- fazer inferencia para video tbm
 - testar com motos e diferentes placas
