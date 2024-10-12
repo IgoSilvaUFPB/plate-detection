@@ -56,6 +56,7 @@ def atualizar_votacao_caracteres(placa_atual, nova_placa, votos_caracteres):
             votos_caracteres[i].update([caractere])
 
 def formar_placa_por_votacao(votos_caracteres):
+    # Obter o caractere mais votado em cada posição, sendo n=1 para obter o mais votado
     return "".join([votos.most_common(1)[0][0] for votos in votos_caracteres])
 
 def detectar_nova_placa(placa_atual, nova_placa):
