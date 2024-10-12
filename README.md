@@ -77,15 +77,13 @@ pip install -r requirements.txt
 
 Para executar o código, certifique-se que está na pasta do projeto e então execute o seguinte comando:
 
-Agora, você pode rodar o script pelo terminal da seguinte forma:
-
-Para rodar o script sem usar a GPU:
+Sem usar a GPU:
 
 ```bash
 python main.py organic-data/video_teste_1.mp4
 ```
 
-Para rodar o script usando a GPU:
+Usando a GPU:
 
 ```sh
 python main.py organic-data/video_teste_1.mp4 --gpu
