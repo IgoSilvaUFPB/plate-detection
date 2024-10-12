@@ -42,6 +42,8 @@ Acesse o site oficial: https://docs.conda.io/en/latest/miniconda.html.
 Escolha a versão para Windows, de acordo com sua arquitetura (32 bits ou 64 bits).
 Baixe o instalador recomendado (geralmente a versão de 64 bits).
 
+![O link para o mini-conda é este acima]("./resources/windows.png")
+
 
 **Executar o Instalador**
 
