@@ -47,9 +47,6 @@ def detectar_caracteres(img, leitor):
     else:
         return None
 
-def calcular_similaridade(str1, str2):
-    return SequenceMatcher(None, str1, str2).ratio()
-
 def atualizar_votacao_caracteres(placa_atual, nova_placa, votos_caracteres):
     for i, caractere in enumerate(nova_placa):
         if i < len(placa_atual):
