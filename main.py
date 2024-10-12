@@ -1,5 +1,17 @@
+import argparse
 from src.utils import processar_video
 
-video_path = 'organic-data/video_teste_3.mp4'
+def main():
+    parser = argparse.ArgumentParser(description="Processar vídeo com ou sem GPU.")
+    
+    parser.add_argument('video_path', type=str, help="Caminho para o arquivo de vídeo")
+    
+    # Flag opcional para usar GPU
+    parser.add_argument('--gpu', action='store_true', help="Use GPU para processamento")
 
-processar_video(video_path, gpu=True)
+    args = parser.parse_args()
+    
+    processar_video(args.video_path, gpu=args.gpu)
+
+if __name__ == "__main__":
+    main()
