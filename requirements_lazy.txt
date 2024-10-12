@@ -1,9 +1,0 @@
-python-dotenv==1.0.1
-easyocr==1.7.2
-matplotlib==3.9.2
-matplotlib-inline==0.1.7
-numpy==2.1.2
-opencv-python==4.10.0.84
-roboflow==1.1.47
-ultralytics==8.3.7
-ultralytics-thop==2.0.9
