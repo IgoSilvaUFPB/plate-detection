@@ -59,7 +59,7 @@ Baixe o instalador recomendado (geralmente a versão de 64 bits).
 Na pasta do projeto, abra o terminal e crie um ambiente virtual com o seguinte comando:
 
 ```sh
-conda create -n viscomp -python=3.12
+conda create -n viscomp python=3.12
 ```
 Após isso, ative o ambiente:
 
