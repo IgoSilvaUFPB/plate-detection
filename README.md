@@ -42,7 +42,7 @@ Acesse o site oficial: https://docs.conda.io/en/latest/miniconda.html.
 Escolha a versão para Windows, de acordo com sua arquitetura (32 bits ou 64 bits).
 Baixe o instalador recomendado (geralmente a versão de 64 bits).
 
-![O link para o mini-conda é este acima]("./resources/windows.png")
+![O link para o mini-conda é este acima]("https://github.com/luiz826/plate-detection/blob/3af8b589406e3fb2f5b3c5684780f01d38cc00cd/resources/windows.png")
 
 
 **Executar o Instalador**
@@ -54,9 +54,9 @@ Baixe o instalador recomendado (geralmente a versão de 64 bits).
 - Finalize a instalação.
 
 
-## Criando o ambiente virtual e instando as dependências:
+## Criando o ambiente virtual e instalando as dependências:
 
-Na pasta do projeto, crie um ambiente virtual com o seguinte comando:
+Na pasta do projeto, abra o terminal e crie um ambiente virtual com o seguinte comando:
 
 ```sh
 conda create -n viscomp -python=3.12
