@@ -1,5 +1,5 @@
 import argparse
-from src.utils import processar_video
+from src.video_processing import processar_video
 
 def main():
     parser = argparse.ArgumentParser(description="Processar vídeo com ou sem GPU.")

@@ -83,7 +83,7 @@ Sem usar a GPU:
 python main.py organic-data/video_teste_1.mp4
 ```
 
-Usando a GPU:
+Usando a GPU (é necessário ter o torch instalado juntamente com o CUDA):
 
 ```sh
 python main.py organic-data/video_teste_1.mp4 --gpu
