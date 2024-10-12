@@ -3,7 +3,6 @@ import easyocr
 import numpy as np
 from src.inferencia import inferencia
 from collections import Counter
-from difflib import SequenceMatcher
 
 def cortar_placa(frame, bounding_box):
     x_min, y_min, x_max, y_max = map(int, bounding_box)
